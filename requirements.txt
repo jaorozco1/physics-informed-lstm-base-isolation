@@ -1,0 +1,16 @@
+# Core deep learning
+tensorflow>=2.13,<2.17
+
+# Numerical / signal processing
+numpy>=1.24
+scipy>=1.11
+
+# Plotting
+matplotlib>=3.7
+
+# Audio feature extraction (used by CNN feature extractor)
+librosa>=0.10
+
+# Jupyter
+notebook>=7.0
+ipykernel>=6.0

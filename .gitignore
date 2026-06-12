@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# TensorFlow / training artefacts
+# (weights in results/ are committed; exclude mid/final duplicates if you retrain)
+results/*/mid_model_*.weights.h5
+results/*/physics_informed_lstm_*.weights.h5
+
+# Normalisation scalers saved at root during training
+max_displ.npy
+max_acc.npy
+max_seismic.npy
+max_cnn.npy
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
